@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Invoice.java&apos; to &apos;44_Session_20_Solid_App/src/com.aurionpro.srp.solution.model&apos;&#x0D;&#x0A;- Original project: &apos;44_Session_20_Solid_App&apos;&#x0D;&#x0A;- Destination element: &apos;44_Session_20_Solid_App/src/com.aurionpro.srp.solution.model&apos;&#x0D;&#x0A;- Original element: &apos;com.aurionpro.srp.violation.model.Invoice.java&apos;" description="Copy compilation unit" destination="/src&lt;com.aurionpro.srp.solution.model" element1="/src&lt;com.aurionpro.srp.violation.model{Invoice.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1722252788560" units="1" version="1.0"/>
+</session>

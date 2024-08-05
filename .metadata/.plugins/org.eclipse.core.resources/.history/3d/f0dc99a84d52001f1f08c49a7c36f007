@@ -1,0 +1,34 @@
+package com.aurionpro.tictactoe.test;
+
+public class TicTacToeTest {
+public static void main(String[] args) {
+	int rows = 3;
+	int columns = 3;
+	char board[][] = new char[rows][columns];
+	
+	for(int i = 0; i<rows; i++) {
+		for(int j=0; j<columns;j++) {
+			board[i][j] = 'k';
+		}
+	}
+
+	
+	char player = 'X';
+	boolean gameOver = false;
+	
+	while(!gameOver) {
+		printBoard();
+	}
+
+}
+
+public void printBoard() {
+	for(int i = 0; i<rows; i++) {
+	for(int j=0; j<columns;j++) {
+		System.out.print(board[i][j]);
+	}
+	System.out.println();
+}
+	
+}
+}

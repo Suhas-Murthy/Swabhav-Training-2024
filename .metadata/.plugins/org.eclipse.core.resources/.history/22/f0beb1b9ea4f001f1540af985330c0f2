@@ -1,0 +1,15 @@
+package com.aurionpro.structural.facade.model;
+
+public class SoundSystem {
+	private void start() {
+		System.out.println("Sound System is On Now.");
+	}
+	private void stop() {
+		System.out.println("Sound System is Off Now.");
+	}
+	
+	private void volume(int level) {
+		System.out.println("SoundSystem has a volume of : "+level);
+	}
+	
+}

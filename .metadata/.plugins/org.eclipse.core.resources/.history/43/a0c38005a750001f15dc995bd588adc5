@@ -1,0 +1,6 @@
+package com.aurionpro.structural.proxy.model;
+
+public class Student {	public interface Student {
+	    void showDetails();
+
+}

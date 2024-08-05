@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Voter.java&apos; to &apos;31_Session_12_Exception_Handling_App/src/com.aurionpro.model&apos;&#x0D;&#x0A;- Original project: &apos;31_Session_12_Exception_Handling_App&apos;&#x0D;&#x0A;- Destination element: &apos;31_Session_12_Exception_Handling_App/src/com.aurionpro.model&apos;&#x0D;&#x0A;- Original element: &apos;com.aurionpro.exception.Voter.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;com.aurionpro.model" element1="/src&lt;com.aurionpro.exception{Voter.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1721468946983" units="1" version="1.0"/>
+</session>

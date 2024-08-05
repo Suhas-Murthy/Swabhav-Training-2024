@@ -1,0 +1,11 @@
+package com.aurionpro.behavioural.observer.model;
+
+public class EmailNotifer implements INotifier {
+
+	@Override
+	public void notify(Account account, String method) {
+		System.out.println("Email");
+		
+	}
+
+}

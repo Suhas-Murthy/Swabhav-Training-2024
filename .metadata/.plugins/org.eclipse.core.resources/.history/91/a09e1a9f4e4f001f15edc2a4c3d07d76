@@ -1,0 +1,17 @@
+package com.aurionpro.creational.abstractfactory.model;
+
+public class SavingAccount implements IAccount{
+
+	@Override
+	public void credit(int deposit) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void debit(int withdraw) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

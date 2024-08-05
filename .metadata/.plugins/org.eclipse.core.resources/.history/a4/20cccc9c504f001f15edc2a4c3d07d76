@@ -1,0 +1,23 @@
+package com.aurionpro.creational.abstractfactory.model;
+
+
+public class CurrentAccount implements IAccount{
+	private int accountNumber;
+	private String name;
+	private int balance = 25000;
+	private int overDraft;
+//	private AccountType accountType = AccountType.CURRENT;
+	
+	@Override
+	public void credit(int deposit) {
+		this.balance += deposit;
+		System.out.println("Deposit Successful. New Balance : " + this.balance);
+	}
+
+	@Override
+	public void debit(int withdraw) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

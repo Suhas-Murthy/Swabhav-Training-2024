@@ -1,0 +1,16 @@
+package com.aurionpro.behavioural.observer.test;
+
+import java.util.List;
+import java.util.Scanner;
+
+import com.aurionpro.behavioural.observer.model.Account;
+import com.aurionpro.behavioural.observer.model.INotifier;
+
+public class AccountNotifierTest {
+public static void main(String[] args) {
+	Scanner scanner = new Scanner(System.in);
+	List<INotifier> notifers = scanner.next();
+	Account account = new Account(accountNumber, name, balance, notifers);
+	
+}
+}

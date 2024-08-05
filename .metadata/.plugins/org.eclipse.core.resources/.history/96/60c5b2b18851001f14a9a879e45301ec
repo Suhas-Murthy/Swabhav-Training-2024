@@ -1,0 +1,12 @@
+package com.aurionpro.model;
+
+import static org.junit.jupiter.api.Assertions.fail;
+
+public class AreaCalculatorTest {
+
+	@Test
+	public double testCalculateAreaOfCircle(int radius) {
+		fail("Unimplemented");
+		
+	}
+}

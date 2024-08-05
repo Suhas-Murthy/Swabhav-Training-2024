@@ -1,0 +1,23 @@
+package com.aurionpro.behavioural.state.model;
+
+public class Delivered implements IPacketState {
+
+	@Override
+	public Packet next(Packet packet) {
+		System.out.println("Package as been Delivered");
+		return packet;
+	}
+
+	@Override
+	public void previous(Packet packet) {
+		System.out.println("Package is moving on to dispatched state.");
+
+	}
+
+	@Override
+	public void current(Packet packet) {
+		System.out.println("Package is in Delivered State");
+
+	}
+
+}

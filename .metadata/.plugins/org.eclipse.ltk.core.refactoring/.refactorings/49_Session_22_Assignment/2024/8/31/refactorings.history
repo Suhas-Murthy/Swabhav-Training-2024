@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Car.java&apos; to &apos;49_Session_22_Assignment/src/com.aurionpro.creational.builder.model&apos;&#x0D;&#x0A;- Original project: &apos;49_Session_22_Assignment&apos;&#x0D;&#x0A;- Destination element: &apos;49_Session_22_Assignment/src/com.aurionpro.creational.builder.model&apos;&#x0D;&#x0A;- Original element: &apos;com.aurionpro.assignment.session22.Car.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;com.aurionpro.creational.builder.model" element1="/src&lt;com.aurionpro.assignment.session22{Car.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1722500882344" units="1" version="1.0"/>
+</session>

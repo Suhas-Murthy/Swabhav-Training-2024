@@ -1,0 +1,15 @@
+package com.aurionpro.structural.facade.model;
+
+public class Projector {
+	
+	
+	private void on() {
+		System.out.println("DVD Player is On Now.");
+	}
+	private void off() {
+		System.out.println("DVD Player is Off Now.");
+	}
+	private void input(Source source) {
+		System.out.println("DVD Player is Off Now."+ source.HDMI);
+	}
+}

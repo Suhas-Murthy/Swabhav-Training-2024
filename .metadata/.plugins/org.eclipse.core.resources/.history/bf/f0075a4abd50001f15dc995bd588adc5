@@ -1,0 +1,18 @@
+package com.aurionpro.behavioural.state.model;
+
+public class Packet {
+IPacketState state;
+
+public Packet(IPacketState state) {
+	super();
+	this.state = state;
+}
+
+public void goToNextState() {
+	state.next(this);
+}
+public void goToPreviosState() {
+	state.next(this);
+}
+
+}

@@ -1,0 +1,9 @@
+package com.aurionpro.exception;
+
+public class AgeNotValidException extends Exception {
+
+	public String getMessage() {
+		return "Age Not Valid: Age must be less than 18";
+	}
+
+}

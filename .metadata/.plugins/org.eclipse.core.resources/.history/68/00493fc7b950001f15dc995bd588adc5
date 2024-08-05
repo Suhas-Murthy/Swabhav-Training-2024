@@ -1,0 +1,12 @@
+package com.aurionpro.behavioural.observer.model;
+
+public class WhatsappNotifier implements INotifier{
+
+	@Override
+	public void notify(Account account, String method,int amount) {
+		System.out.println("Whatsapp"+method+" amount of "+amount);
+		System.out.println("Your Balance : "+account.getBalance());
+		System.out.println();
+	}
+
+}

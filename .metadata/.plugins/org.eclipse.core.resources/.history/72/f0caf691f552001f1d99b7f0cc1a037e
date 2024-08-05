@@ -1,0 +1,29 @@
+package com.aurionpro.model;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TicTacToeMavenModelTest {
+
+	@Test
+	void testInitializeBoard() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testPrintBoard() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testMainLogic() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testHaveWon() {
+		fail("Not yet implemented");
+	}
+
+}

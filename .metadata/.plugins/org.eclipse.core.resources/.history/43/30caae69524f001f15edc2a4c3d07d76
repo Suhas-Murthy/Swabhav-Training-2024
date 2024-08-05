@@ -1,0 +1,10 @@
+package com.aurionpro.creational.abstractfactory.model;
+
+public class SavingFactory implements IAccountFactory{
+
+	@Override
+	public IAccount getAccount() {
+		return new SavingAccount();
+	}
+
+}

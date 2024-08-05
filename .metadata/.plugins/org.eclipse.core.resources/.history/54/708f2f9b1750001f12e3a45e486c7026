@@ -1,0 +1,9 @@
+package com.aurionpro.structural.decorator.model;
+
+public class HatDecoratorTest {
+public static void main(String[] args) {
+	IHat hat = new StandardHat();
+	GoldenHat goldhat = new GoldenHat(hat);
+	
+}
+}

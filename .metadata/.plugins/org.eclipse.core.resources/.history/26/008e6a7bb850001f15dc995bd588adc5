@@ -1,0 +1,20 @@
+package com.aurionpro.behavioural.observer.model;
+
+import com.aurionpro.exception.InsufficientBalanceException;
+
+public class SMSNotifer implements INotifier {
+
+	@Override
+	public void notify(Account account, String method, int amount) {
+		if (method.equals("failed")) {
+			InsufficientBalanceException exception = new InsufficientBalanceException(account.getBalance());
+			System.out.println(exception);
+		}
+		if (method.equals("credited") || method.equals("debited")) {
+			System.out.println("SMS Notification: " + method + " amount of " + amount);
+			System.out.println("Your Balance : " + account.getBalance());
+			System.out.println();
+		}
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.aurionpro.creational.abstractfactory.model;
+
+public class TataFactory implements ICarFactory{
+
+	@Override
+	public void makeCar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

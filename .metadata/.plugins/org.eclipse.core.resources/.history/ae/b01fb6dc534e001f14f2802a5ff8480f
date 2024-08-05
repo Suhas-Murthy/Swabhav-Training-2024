@@ -1,0 +1,17 @@
+package com.aurionpro.ocp.solution.model;
+
+public class FixedDeposit {
+private int accountNumber;
+private String name;
+private double principal;
+private int duration;
+private IFestivalInterest festival;
+
+
+
+public double simpleInterest() {
+	double simpleInterest = (this.principal*this.getDuration()*this.getInterestRates())/100;
+	return simpleInterest;
+}
+
+}

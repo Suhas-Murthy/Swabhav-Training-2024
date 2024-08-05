@@ -1,0 +1,25 @@
+package com.aurionpro.tictactoe.test;
+
+
+import com.aurionpro.tictactoe.model.MarkType;
+import com.aurionpro.tictactoe.model.Players;
+import com.aurionpro.tictactoe.model.TicTacToe;
+
+public class TicTacToeTest {
+public static void main(String[] args) {
+	
+	TicTacToe tictactoe = new TicTacToe();
+	tictactoe.boardCreation();
+	tictactoe.boardPrint();
+//	for(int i=0;i<3;i++) {
+//		for(int j=0;j<3;j++) {
+//			board[i][j] = MarkType.O;
+//		}
+//	}
+
+	
+	Players player1 = new Players("Player1", MarkType.X);
+	Players player2 = new Players("Player2", MarkType.O);
+	
+}
+}

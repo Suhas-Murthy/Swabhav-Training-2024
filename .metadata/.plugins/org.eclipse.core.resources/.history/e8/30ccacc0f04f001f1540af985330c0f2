@@ -1,0 +1,28 @@
+package com.aurionpro.structural.adapter.model;
+
+import java.util.List;
+
+public class ShoppingCart {
+List<IItems> cartItems;
+
+public ShoppingCart(List<IItems> cartItems) {
+	super();
+	this.cartItems = cartItems;
+}
+
+public List<IItems> getCartItems() {
+	return cartItems;
+}
+
+public void setCartItems(List<IItems> cartItems) {
+	this.cartItems = cartItems;
+}
+
+@Override
+public String toString() {
+	return "ShoppingCart [cartItems=" + cartItems + "]";
+}
+
+
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;45_Session_21_Solid_App_Continue&apos; to &apos;45_Session_21_OCP_Solid_Principle&apos;" description="Rename resource &apos;45_Session_21_Solid_App_Continue&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/45_Session_21_Solid_App_Continue" name="45_Session_21_OCP_Solid_Principle" stamp="1722328862366" updateReferences="true"/>
+</session>

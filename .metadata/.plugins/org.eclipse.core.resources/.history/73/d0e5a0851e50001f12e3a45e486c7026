@@ -1,0 +1,43 @@
+package com.aurionpro.structural.decorator.model;
+
+public class RibbonedHat extends HatDecorator{
+
+	public RibbonedHat(IHat hat) {
+		super(hat);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String getName() {
+		String name = null;
+		if(hat.getName().equals("Standard Hat") || hat.getName().equals("Premium Hat")) {
+			name = hat.getName()+" with "+"Ribboned Special Edition.";
+			return name;
+			}
+		if(hat.getName().equals("Standard HatGolden Hat")) {
+			name = hat.getName()+" with "+"Ribboned Special Edition.";
+			return name;
+		}
+		
+		return name;
+	}
+
+	@Override
+	public int getPrice() {
+		// TODO Auto-generated method stub
+		return 500+hat.getPrice();
+	}
+
+	@Override
+	public String getDescription() {
+		System.out.println(hat.getName()+" is upgraded now to "+"Ribboned Special Edition.");
+		return "Ribboned Hat with different colors and designer ribbons for your all occasions.";
+	}
+
+	@Override
+	public String toString() {
+		return "Name=" + getName() + "\nPrice=" + getPrice() + "\nDescription="
+				+ getDescription();
+	}
+
+}

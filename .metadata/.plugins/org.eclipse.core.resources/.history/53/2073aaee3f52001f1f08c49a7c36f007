@@ -1,0 +1,8 @@
+package com.aurionpro.tictactoe.model;
+
+public class TicTacToe {
+private MarkType markType;
+
+Players player = new Players("S", MarkType.X);
+
+}

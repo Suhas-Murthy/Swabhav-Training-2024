@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="conditionHistory">
+	</section>
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=18_oop_app/src&amp;lt;com.aurionpro.test{BoxTest.java[BoxTest&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=31_Session_12_Exception_Handling_App/src&amp;lt;com.aurionpro.test{DivisionTest.java[DivisionTest&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=04_Sum_Of_Numbers/src&amp;lt;com.aurionpro.commandlineargs{AreaOfCircle.java[AreaOfCircle&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=56_Session_27_Unit_Testing_App_Mokito/C:\/Users\/suhas.murthy\/.m2\/repository\/net\/bytebuddy\/byte-buddy\/1.12.14\/byte-buddy-1.12.14.jar&amp;lt;net.bytebuddy.build(Plugin$Engine$Default.class[Default&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=56_Session_27_Unit_Testing_App_Mokito/C:\/Users\/suhas.murthy\/.m2\/repository\/net\/bytebuddy\/byte-buddy-agent\/1.12.14\/byte-buddy-agent-1.12.14.jar&amp;lt;net.bytebuddy.agent(Attacher.class[Attacher&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="100" key="DIALOG_X_ORIGIN"/>
+			<item value="0" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+</section>
