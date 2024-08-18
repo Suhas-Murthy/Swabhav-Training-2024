@@ -1,8 +1,0 @@
-package com.aurionpro.structural.facade.model;
-
-public class HomeThreaterController {
-public void start() {
-	Projector projector = new Projector();
-	projector.o
-}
-}

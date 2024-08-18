@@ -7,10 +7,9 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="56_Session_27_Unit_Testing_App_Mokito"/>
-			<item value="55_Session_26_Assignment_TicTacToe"/>
-			<item value="54_Session_26_Unit_Testing_App"/>
-			<item value="Unit_Testing_App"/>
+			<item value="71_Spring_Core2"/>
+			<item value="70-springboot-app"/>
+			<item value="SpringApp"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -37,6 +36,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -48,6 +48,9 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Aurionpro\SpringApp\src\test\java\com\aurionpro\test\ComputerTest.java"/>
+			<item value="D:\Aurionpro\68_Mini_Project_Bank\src\com\aurionpro\controller\LoginController.java"/>
+			<item value="D:\Aurionpro\57_Servlet_App\src\com\aurionpro\controller\FirstServlet.java"/>
 			<item value="D:\Aurionpro\54_Session_26_Unit_Testing_App\pom.xml"/>
 			<item value="D:\Aurionpro\53_Session_25_Assignment_Tic_Tac_Toe\src\com\aurionpro\tictactoe\model\TicTacToeTest.java"/>
 		</list>

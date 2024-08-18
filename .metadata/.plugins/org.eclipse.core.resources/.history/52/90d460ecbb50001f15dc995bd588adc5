@@ -1,7 +1,0 @@
-package com.aurionpro.behavioural.state.model;
-
-public interface IPacketState {
-public void next();
-public void previous();
-public void current();
-}

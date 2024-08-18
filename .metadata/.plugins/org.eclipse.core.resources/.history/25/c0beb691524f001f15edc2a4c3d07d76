@@ -1,5 +1,0 @@
-package com.aurionpro.creational.abstractfactory.model;
-
-public interface IAccountFactory {
-public IAccount getSavingAccount(int accountNumber, String name, int balance);
-}

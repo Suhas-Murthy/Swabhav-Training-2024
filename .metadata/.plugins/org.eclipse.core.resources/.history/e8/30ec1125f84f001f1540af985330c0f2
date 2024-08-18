@@ -1,6 +1,0 @@
-package com.aurionpro.structural.decorator.model;
-
-public abstract class CarDecorator implements ICarService{
-public abstract int getCost();
-
-}
